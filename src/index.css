@@ -188,6 +188,6 @@ input:checked + .slider:before {
     font-size: 20px;
   }
   .switch{
-    top: 3px;
+    top: 5px;
   }
 }
