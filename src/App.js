@@ -1,13 +1,12 @@
 import Main from "./components/Main";
-import {useSelector} from 'react-redux'
-
+import { useSelector } from "react-redux";
 
 function App() {
-  const theme = useSelector((state)=>state.isTheme.isTrue);
- 
-  return(
-    <div  className={theme?"light":"dark"} id="app">
-   <Main/>
+  const theme = useSelector((state) => state.isTheme.isTrue);
+
+  return (
+    <div className={theme ? "light" : "dark"} id="app">
+      <Main />
     </div>
   );
 }
