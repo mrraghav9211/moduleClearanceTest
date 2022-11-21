@@ -187,4 +187,7 @@ input:checked + .slider:before {
   .main h1 {
     font-size: 20px;
   }
+  .switch{
+    top: 10px;
+  }
 }
