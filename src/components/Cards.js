@@ -191,7 +191,8 @@ const Cards = () => {
               {details.list[33].weather[0].description}
             </span>
           </div>
-        </div>
+        </div><br />
+        <h3>Developed By❤️Rk Raghav</h3>
       </div>
     </>
   );

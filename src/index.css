@@ -170,6 +170,9 @@ input:checked + .slider:before {
   color: white;
   outline: none;
 }
+h3{
+  text-align: center;
+}
 
 /* media query */
 @media screen and (max-width: 480px) {
